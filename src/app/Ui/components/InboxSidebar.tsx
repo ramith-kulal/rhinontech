@@ -12,11 +12,11 @@ import {
   faEye,
   faBars,
   faPlus,
-  faListAlt 
 } from "@fortawesome/free-solid-svg-icons"
+import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
 interface SidebarItemProps {
-  icon?: any
+  icon?:IconDefinition 
   label: string
   count?: number
   active: boolean
