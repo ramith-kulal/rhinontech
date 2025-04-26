@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar, faEllipsisH, faMoon, faArchive, faPaperPlane, faBolt, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { faStar, faEllipsisH, faMoon, faArchive, faBolt, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 export function MessengerSection() {
   const [message, setMessage] = useState("");
